@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuários - Label e Datalist</title>
+</head>
+
+<body>
+    <!--
+        Label 
+            * Associar e identificar um ou mais tag de entrada de dados
+            * Ajuda na acessibilidade
+    -->
+    <!--<form action="">
+        <label for="nome">
+            Nome:
+            <input id="nome" type="text">
+        </label>
+
+
+        <label for="age">
+            Idade:
+        </label>
+        <input id="age" type="number">
+
+        
+        datalist
+        *Lista de valores com sugestões para algum elemento input
+        *Usuário poderá selecionar um dos valores ou colocar novos valores
+    -->
+
+    <datalist id="prof-list">
+        <option >Luan</option>
+        <option >Jenifer</option>
+        <option >Regis</option>
+    </datalist>
+
+    <input list="prof-list" type="text">
+    </form>
+</body>
+
+</html>
